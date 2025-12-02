@@ -1,4 +1,4 @@
-import pytest 
+
 def student_details(Student_ID, Student_Name, Course_Enrolled, Academic_Year):
     result = (
         f"Student ID: {Student_ID}\n"
