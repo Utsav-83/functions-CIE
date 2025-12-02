@@ -1,5 +1,6 @@
 from student1 import Student_details
 import pytest
+
 def test_student_details():
     expected_output = (
         "Student ID: 105\n"
@@ -8,5 +9,6 @@ def test_student_details():
         "Academic Year: 2026\n"
     )
 
-    
-    assert Student_details(Student_ID, Student_Name, Course_Enrolled, Academic_Year) == expected_output
+    result = Student_details(105, "Naman", "BCA", "2026")
+
+    assert result == expected_output
