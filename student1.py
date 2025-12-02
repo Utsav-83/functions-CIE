@@ -1,5 +1,5 @@
 
-def student_details(Student_ID, Student_Name, Course_Enrolled, Academic_Year):
+def Student_details(Student_ID, Student_Name, Course_Enrolled, Academic_Year):
     result = (
         f"Student ID: {Student_ID}\n"
         f"Student Name: {Student_Name}\n"
